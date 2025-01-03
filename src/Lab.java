@@ -75,7 +75,6 @@ public class Lab {
             total += students[i].getGrade();
         }
         avgGrade = total / currentSize;
-        System.out.println("Student average is: " + avgGrade);
     }
 
     public void enrollStudent(Student student) {
@@ -92,6 +91,7 @@ public class Lab {
 
 
     public void printLabInfo() {
+        calcAvg();
         System.out.print("{");
         System.out.println();
         for (int i = 0; i < currentSize; i++) {
