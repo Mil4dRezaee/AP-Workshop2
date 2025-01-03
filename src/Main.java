@@ -8,8 +8,10 @@ public class Main {
         student1.setGrade(95);
         student2.setGrade(98);
 
-        student1.printStudentInfo();
-        student2.printStudentInfo();
+        Lab lab = new Lab("Mr.Smith", "Monday", 30);
+        lab.enrollStudent(student1);
+        lab.enrollStudent(student2);
+        lab.printLabInfo();
 
     }
 
