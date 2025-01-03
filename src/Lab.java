@@ -78,8 +78,6 @@ public class Lab {
     }
 
     public void enrollStudent(Student student) {
-        System.out.println(currentSize);
-        System.out.println(maxSize);
         if (currentSize < maxSize) {
             students[currentSize] = student;
             currentSize++;
