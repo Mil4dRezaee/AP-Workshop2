@@ -11,6 +11,10 @@ public class Student {
         this.id = id;
     }
 
+    public double getGrade() {
+        return grade;
+    }
+
     public Student setGrade(double grade) {
         this.grade = grade;
         return this;
